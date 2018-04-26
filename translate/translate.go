@@ -15,6 +15,14 @@ var (
 	En            = "en"
 )
 
+// you dao translate info
+var (
+	YdAppId         = "02c78d0dffcefeec"
+	YdSecret        = "aj9fadKOOJ2KJ2PtJjKJTvd5pqz5HOnv"
+	YdTranslatorURL = "http://openapi.youdao.com/api"
+	YdSalt          = "12345678"
+)
+
 // EncryptParams ...
 func EncryptParams(random, query string) string {
 	s := AppId + query + random + Secret
