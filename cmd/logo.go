@@ -7,7 +7,7 @@ var (
 	Version = "v0.0.1-beta"
 	logo    = `	百度翻译
 	BDT %s
-	https://github.com/TimothyYe/skm`
+	https://github.com/mojo-zd/bd`
 )
 
 func DisplayLogo() {
